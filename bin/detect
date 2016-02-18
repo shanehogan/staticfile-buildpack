@@ -3,6 +3,8 @@
 
 BP=$(dirname $(dirname $0))
 
+echo "Hello Bennidhi"
+
 if [ -f $1/Staticfile ]; then
   echo "staticfile `cat $BP/VERSION`" && exit 0
 else
